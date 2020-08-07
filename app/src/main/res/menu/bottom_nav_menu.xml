@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_zerg"
+        android:icon="@drawable/logo_zerg"
+        android:title="@string/title_zerg" />
+
+    <item
+        android:id="@+id/navigation_terran"
+        android:icon="@drawable/logo_terran"
+        android:title="@string/title_terran" />
+
+    <item
+        android:id="@+id/navigation_protoss"
+        android:icon="@drawable/logo_protoss"
+        android:title="@string/title_protoss" />
+
+</menu>

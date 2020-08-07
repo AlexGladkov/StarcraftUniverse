@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_zerg">
+
+    <fragment
+        android:id="@+id/navigation_zerg"
+        android:name="com.agladkov.starcraftuniverse.ui.zerg.ZergFragment"
+        android:label="@string/title_zerg"
+        tools:layout="@layout/fragment_zerg" />
+
+    <fragment
+        android:id="@+id/navigation_terran"
+        android:name="com.agladkov.starcraftuniverse.ui.terran.TerranFragment"
+        android:label="@string/title_terran"
+        tools:layout="@layout/fragment_terran" />
+
+    <fragment
+        android:id="@+id/navigation_protoss"
+        android:name="com.agladkov.starcraftuniverse.ui.protoss.ProtossFragment"
+        android:label="@string/title_protoss"
+        tools:layout="@layout/fragment_protoss" />
+</navigation>
